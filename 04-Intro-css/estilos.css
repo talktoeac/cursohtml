@@ -1,0 +1,27 @@
+h1 {
+    color:blue;
+}
+
+p {
+    color: brown;
+}
+
+#primeranoticia {
+    color: rgb(3, 232, 37);
+}
+
+#segundanoticia {
+    color: aquamarine;
+}
+
+.encabezado {
+    color: antiquewhite;
+}
+
+*.warning{
+    color: blueviolet;
+} 
+
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+}

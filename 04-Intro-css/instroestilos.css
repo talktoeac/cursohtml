@@ -1,0 +1,46 @@
+/* estilos para colors */
+
+.colores {
+    color: red;
+}
+
+.colorhexadecimal {
+    color: aqua;
+}
+
+.colorrgb {
+    color: rgb(202, 95, 116);
+}
+
+.colorrgba {
+    color: rgb(209, 71, 209, 0.15);
+}
+
+.fondo {
+    background-color:blue ;
+}
+
+.fondointerno {
+    background-image:url("/03-Multimedia/imagenes/fondo.jpg");
+}
+
+.fondourl {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.yrj-n_VQaU2oEoi93SI1WQHaE8&pid=Api&P=0) ;
+}
+
+.ancho {
+    background-color: aquamarine;
+    width: 100px;
+}
+
+.alto {
+    background-color:chartreuse ;
+    height: 150px;
+    width: 500px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+}

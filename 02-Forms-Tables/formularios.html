@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <title>Ejercicio 02 - Formularios HTML</title>
+</head>
+    
+<body>
+    <form action="resultados.html" method="GET">
+    <div>
+        <label for="nombreusuario">Nombre de usuario</label>
+        <input type="text" name="nombreusuario" id="nombreusuario" required />
+
+    </div>
+    <br>
+
+    <div>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required />
+
+    </div>
+    <br>
+
+    <div>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="0" max="200" step="5"/>
+
+    </div>
+    <br>
+
+    <div>
+        <label for="frasefavorita">Frase Favorita</label>
+        <input type="text" name="frasefavorita" id="frasefavorita"/>
+
+    </div>
+    <br>
+
+    <div>
+
+        <label for="comentarios">comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+    
+    </div>
+    <br>
+
+    <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    
+    </form>
+    
+</body>
+</html>
